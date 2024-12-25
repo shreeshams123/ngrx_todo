@@ -1,0 +1,17 @@
+.cnt{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 400px;
+    margin-top: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.todoItems{
+    display: flex;
+    justify-content: space-between;
+}

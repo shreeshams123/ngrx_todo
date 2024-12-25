@@ -1,0 +1,7 @@
+<div class="cnt">
+    <h2 style="text-align: center;">ToDo List</h2>
+    <div *ngFor="let todo of (todos$|async)??[]" class="todoItems">
+        <div>{{todo.title}}</div>
+        <button (click)="handleRemove(todo.title)">Remove</button>
+    </div>
+</div>
